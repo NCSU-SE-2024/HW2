@@ -32,5 +32,6 @@ def random_array(arr):
         except subprocess.CalledProcessError as e:
             print(f"Command failed with return code {e.returncode}")
         else:  
-            arr[i] = int(shuffled_num.stdout.decode('utf-8').strip())
+            #fixed FileNotFoundError: [Errno 2] No such file or directory: 'shuf'
+            arr[i] = int(shuffled_num.stdout.decode('utf-8').strip()) 
     return arr
