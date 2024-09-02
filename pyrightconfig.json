@@ -1,0 +1,6 @@
+{
+    "typeCheckingMode": "strict",
+    "include": ["src"],
+    "exclude": ["**/node_modules", "**/__pycache__"]
+  }
+  
