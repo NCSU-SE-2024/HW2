@@ -31,5 +31,6 @@ def random_array(arr):
                                           check=True)
         except subprocess.CalledProcessError as e:
             print(f"Command failed with return code {e.returncode}")
-        arr[i] = int(shuffled_num.stdout)
+        else:  
+            arr[i] = int(shuffled_num.stdout.decode('utf-8').strip())
     return arr
