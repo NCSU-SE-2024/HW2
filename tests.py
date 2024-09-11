@@ -24,7 +24,8 @@ def test2():
     input_arr = []
     output_arr = []
     assert hw2_debugging.merge_sort(
-        input_arr) == output_arr, "Testcase 2 Failed"
+        input_arr) == output_arr, "Testcase 2 Failed" # type: ignore
+    #ignore above warning as we want to test for empty array
 
 
 def test3():
@@ -56,8 +57,9 @@ def test5():
     input_arr = []
     output_arr = []
     assert debugging.selection_sort(
-        input_arr) == output_arr, "Testcase 2 Failed"
-
+        input_arr) == output_arr, "Testcase 2 Failed" # type: ignore
+    #ignore above warning as we want to test for empty array
+    
 
 def test6():
     """
