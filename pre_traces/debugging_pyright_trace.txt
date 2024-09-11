@@ -1,0 +1,13 @@
+gaurav@LAPTOP-76TQGMDC:/mnt/d/ncsu_se_fall_24/HW2$ pyright debugging.py 
+
+added 1 package, and audited 2 packages in 4s
+
+found 0 vulnerabilities
+/mnt/d/ncsu_se_fall_24/HW2/debugging.py
+  /mnt/d/ncsu_se_fall_24/HW2/debugging.py:22:5 - error: Return type is unknown (reportUnknownParameterType)
+  /mnt/d/ncsu_se_fall_24/HW2/debugging.py:22:20 - error: Type of parameter "arr" is unknown (reportUnknownParameterType)
+  /mnt/d/ncsu_se_fall_24/HW2/debugging.py:22:20 - error: Type annotation is missing for parameter "arr" (reportMissingParameterType)
+  /mnt/d/ncsu_se_fall_24/HW2/debugging.py:33:22 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/d/ncsu_se_fall_24/HW2/debugging.py:63:12 - error: Return type is unknown (reportUnknownVariableType)
+5 errors, 0 warnings, 0 informations 
