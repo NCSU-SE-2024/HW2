@@ -11,6 +11,8 @@ Usage:
     message.
 """
 import logging
+from typing import List
+
 logging.basicConfig(
     filename='partial_debugging_selection_sort.log',
     encoding='utf-8',
@@ -19,7 +21,7 @@ logging.basicConfig(
 logging.debug("NEW LOG")
 
 
-def selection_sort(arr):
+def selection_sort(arr: List[int]) -> List[int]:
     """
     Sorts an array in ascending order using the selection sort algorithm.
 
