@@ -1,0 +1,2 @@
+gaurav@LAPTOP-76TQGMDC:/mnt/d/ncsu_se_fall_24/HW2$ pyright debugging.py
+0 errors, 0 warnings, 0 informations 
