@@ -1,0 +1,4 @@
+gaurav@LAPTOP-76TQGMDC:/mnt/d/ncsu_se_fall_24/HW2$ pylint debugging.py 
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
