@@ -1,0 +1,10 @@
+(base) sohamgundewar@Sohams-MBP-3 HW2 % pyright rand.py
+/Users/sohamgundewar/Desktop/SE Github/HW2/rand.py
+  /Users/sohamgundewar/Desktop/SE Github/HW2/rand.py:8:5 - error: Return type is unknown (reportUnknownParameterType)
+  /Users/sohamgundewar/Desktop/SE Github/HW2/rand.py:8:18 - error: Type of parameter "arr" is unknown (reportUnknownParameterType)
+  /Users/sohamgundewar/Desktop/SE Github/HW2/rand.py:8:18 - error: Type annotation is missing for parameter "arr" (reportMissingParameterType)
+  /Users/sohamgundewar/Desktop/SE Github/HW2/rand.py:27:12 - error: Type of "_" is unknown (reportUnknownVariableType)
+  /Users/sohamgundewar/Desktop/SE Github/HW2/rand.py:27:27 - error: Argument type is unknown
+    Argument corresponds to parameter "iterable" in function "__new__" (reportUnknownArgumentType)
+  /Users/sohamgundewar/Desktop/SE Github/HW2/rand.py:37:12 - error: Return type is unknown (reportUnknownVariableType)
+6 errors, 0 warnings, 0 informations 

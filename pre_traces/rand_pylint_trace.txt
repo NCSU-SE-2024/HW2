@@ -1,0 +1,8 @@
+(base) sohamgundewar@Sohams-MBP-3 HW2 % pylint rand.py       
+************* Module rand
+rand.py:34:13: C0303: Trailing whitespace (trailing-whitespace)
+rand.py:36:69: C0303: Trailing whitespace (trailing-whitespace)
+rand.py:32:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.00/10
