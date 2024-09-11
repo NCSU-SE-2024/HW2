@@ -22,6 +22,10 @@ def merge_sort(input_arr:List[int])->List[int]:
     Returns:
         list: The sorted list.
     """
+    #adding check for empty arr
+    if len(input_arr) == 0:
+        return []
+    
     logger.debug("Before Arr: %r", input_arr)
     if len(input_arr) == 1:
         return input_arr

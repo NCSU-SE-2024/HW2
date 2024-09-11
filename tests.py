@@ -33,7 +33,7 @@ def test3():
     This test case checks if the function can handle an duplicates and negative integers.
     """
     input_arr = [5, 2, 9, -1, 5, 6, 2, -9, 5]
-    output_arr = [-1, -9, 2, 2, 5, 5, 5, 6, 9]
+    output_arr = [-9, -1, 2, 2, 5, 5, 5, 6, 9]
     assert hw2_debugging.merge_sort(
         input_arr) == output_arr, "Testcase 3 Failed"
 
@@ -65,6 +65,6 @@ def test6():
     This test case checks if the function can handle an duplicates and negative integers.
     """
     input_arr = [5, 2, 9, -1, 5, 6, 2, -9, 5]
-    output_arr = [-1, -9, 2, 2, 5, 5, 5, 6, 9]
+    output_arr = [-9, -1, 2, 2, 5, 5, 5, 6, 9]
     assert debugging.selection_sort(
         input_arr) == output_arr, "Testcase 3 Failed"
