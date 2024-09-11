@@ -1,0 +1,6 @@
+anish@MetalBox:/mnt/c/MCS/Classes/SE/HW2$ pylint hw2_debugging.py
+************* Module hw2_debugging
+hw2_debugging.py:14:26: C0303: Trailing whitespace (trailing-whitespace)
+
+-------------------------------------------------------------------
+Your code has been rated at 9.71/10 (previous run: 10.00/10, -0.29)

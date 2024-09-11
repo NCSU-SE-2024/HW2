@@ -1,0 +1,2 @@
+anish@MetalBox:/mnt/c/MCS/Classes/SE/HW2$ pyright hw2_debugging.py 
+0 errors, 0 warnings, 0 informations 
