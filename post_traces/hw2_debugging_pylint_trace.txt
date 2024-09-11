@@ -1,0 +1,4 @@
+anish@MetalBox:/mnt/c/MCS/Classes/SE/HW2$ pylint hw2_debugging.py
+
+------------------------------------
+Your code has been rated at 10.00/10

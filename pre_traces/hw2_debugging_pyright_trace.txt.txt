@@ -1,0 +1,55 @@
+anish@MetalBox:/mnt/c/MCS/Classes/SE/HW2$ pyright hw2_debugging.py 
+ * Install prebuilt node (22.8.0) ..... done.
+
+added 1 package, and audited 2 packages in 5s
+
+found 0 vulnerabilities
+npm notice
+npm notice New patch version of npm available! 10.8.2 -> 10.8.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.3
+npm notice To update run: npm install -g npm@10.8.3
+npm notice
+/mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:14:5 - error: Return type, "Unknown | list[None]", is partially unknown (reportUnknownParameterType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:14:16 - error: Type of parameter "input_arr" is unknown (reportUnknownParameterType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:14:16 - error: Type annotation is missing for parameter "input_arr" (reportMissingParameterType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:24:36 - error: Argument type is unknown
+    Argument corresponds to parameter "args" in function "debug" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:25:12 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:26:16 - error: Return type is unknown (reportUnknownVariableType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:28:16 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:31:22 - error: Argument type is unknown
+    Argument corresponds to parameter "left_arr" in function "recombine" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:31:33 - error: Argument type is unknown
+    Argument corresponds to parameter "input_arr" in function "merge_sort" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:31:52 - error: Argument type is unknown
+    Argument corresponds to parameter "right_arr" in function "recombine" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:31:63 - error: Argument type is unknown
+    Argument corresponds to parameter "input_arr" in function "merge_sort" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:34:15 - error: Type of parameter "left_arr" is unknown (reportUnknownParameterType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:34:15 - error: Type annotation is missing for parameter "left_arr" (reportMissingParameterType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:34:25 - error: Type of parameter "right_arr" is unknown (reportUnknownParameterType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:34:25 - error: Type annotation is missing for parameter "right_arr" (reportMissingParameterType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:47:34 - error: Argument type is unknown
+    Argument corresponds to parameter "args" in function "debug" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:48:35 - error: Argument type is unknown
+    Argument corresponds to parameter "args" in function "debug" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:49:31 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:49:47 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:50:28 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:50:60 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:60:37 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:64:36 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /mnt/c/MCS/Classes/SE/HW2/hw2_debugging.py:72:25 - error: Argument of type "list[None]" cannot be assigned to parameter "arr" of type "List[int]" in function "random_array"
+    "list[None]" is not assignable to "List[int]"
+      Type parameter "_T@list" is invariant, but "None" is not the same as "int"
+      Consider switching from "list" to "Sequence" which is covariant (reportArgumentType)
+24 errors, 0 warnings, 0 informations
