@@ -59,7 +59,7 @@ def test5():
     assert debugging.selection_sort(
         input_arr) == output_arr, "Testcase 2 Failed" # type: ignore
     #ignore above warning as we want to test for empty array
-    
+
 
 def test6():
     """
