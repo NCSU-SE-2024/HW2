@@ -1,0 +1,2 @@
+(base) sohamgundewar@Sohams-MBP-3 HW2 % pyright rand.py
+0 errors, 0 warnings, 0 informations 
