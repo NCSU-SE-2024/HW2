@@ -20,4 +20,4 @@ jobs:
         pip install autopep8
     - name: Analysing the code with autopep8 
       run: |
-        autopep8 $(git ls-files '*.py')
+        autopep8 $(git ls-files '*.py') --diff --aggressive
