@@ -1,0 +1,16 @@
+Checking ./debugging.py
+0 errors, 0 warnings, 0 informations 
+
+
+Checking ./hw2_debugging.py
+0 errors, 0 warnings, 0 informations 
+
+
+Checking ./rand.py
+0 errors, 0 warnings, 0 informations 
+
+
+Checking ./tests.py
+0 errors, 0 warnings, 0 informations 
+
+
