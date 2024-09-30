@@ -1,1 +1,7 @@
+# Environment variables
+.env
+.env.development
 
+# Compiled files
+*.out
+*.exe
